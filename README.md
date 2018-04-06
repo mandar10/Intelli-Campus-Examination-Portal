@@ -36,7 +36,7 @@ Since education is a powerful instrument of social change and human progress, it
 <center><img src="SS/3b.png" width="700px"></center>
 
 ### Student Verfication App using ID Card Barcode
-<center><img src="SS/4.gif></center>
+<center><img src="SS/4.gif width="250px"></center>
 
 ### Student Verification using Facial Recognition
 <center><img src="SS/5.png" width="700px"></center>
@@ -45,13 +45,13 @@ Since education is a powerful instrument of social change and human progress, it
 <center><img src="SS/6.png" width="700px"></center>
 
 ### Corrected Papers Marks Uploading
-<center><img src="SS/7.gif"></center>
+<center><img src="SS/7.gif" width="250px"></center>
 
 #### Results
-<center><img src="SS/7a.png" width="700px"></center>
+<center><img src="SS/7a.png" width="250px"></center>
 
 ### Exam Timetable integration with Google Calendar on your phone
-<center><img src="SS/8.png"></center>
+<center><img src="SS/8.png" width="700px"></center>
 
 
 ## Built With

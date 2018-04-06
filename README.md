@@ -1,124 +1,67 @@
-Introduction
-============
+# IntelliCampus Extension (Examination Management) Developed for CodeShastra 4.0 Round 0
+Since education is a powerful instrument of social change and human progress, it is also a powerful tool to cultivate values in an individual. Therefore all the educational institutes have greater responsibility to impart learning and cultivating values through education. To have this impactful change we need to have smart Educational Institutes. Our Nation is currently going through a “Digital Revolution” and this revolution must be brought in the institutions.   
+    Today many of our Educational Institutes face the problems such as inadequate resources to get the quality education, less eco-friendly, improper library facilities, lack of distance education for the remote areas, lack of education for students with special needs and poor counseling for students to handle academic pressure.
+    To overcome all this hindrance that becomes the hurdle in the way of our institutions to adapt to this era of digitization, we have implemented some economical and feasible solutions that will help to provide equal education and more opportunities to upcoming youth in our Learning Management System Called [Intelli Campus](https://github.com/prathmesh36/IntelliCampus-Web) whereas this Project serves as an Extension to the Intelli Campus LMS by providing all examination management features like
+* Exam Registration using Student account.
+* Automatically generated Hall Ticket available for download to Students on portal.
+* Student Identity Verfication App for Exam Supervisor based on Identity card Barcode.
+* Google Calendar API Integration with Exam TimeTable for getting timely updates about exams.
+* Exam Timetable Generator considering dates and available rooms.
+* Corrected Paper Marks Uploading App using Image Processing based App (Google Cloud Vision API)
 
-![Bower version](https://img.shields.io/bower/v/adminlte.svg)
-[![npm version](https://img.shields.io/npm/v/admin-lte.svg)](https://www.npmjs.com/package/admin-lte)
-[![Packagist](https://img.shields.io/packagist/v/almasaeed2010/adminlte.svg)](https://packagist.org/packages/almasaeed2010/adminlte)
-[![CDNJS](https://img.shields.io/cdnjs/v/admin-lte.svg)](https://cdnjs.com/libraries/admin-lte)
+## Getting Started
 
-**AdminLTE** -- is a fully responsive admin template. Based on **[Bootstrap 3](https://github.com/twbs/bootstrap)** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself.
+* After cloning the project you need to import the project's database from DB Folder into phpmyadmin of your local machine.
+* Now you are ready to run the project on your local machine.
+* The Project uses Google Calendar & Cloud Vision API so you need to setup account on google cloud platform and get the required credential for the used API.
+* You will also be required to give your billing details to set a billing account to avail the free service of Google Cloud Vision API. Click Here to know more.
+* Once the billing account is set get credentials for Google Cloud Vision and put it in the GVision Vendor folder.
 
-**Download & Preview on [Almsaeed Studio](https://almsaeedstudio.com)**
+### Prerequisites
+* [Android Studio 2.0 or above](https://developer.android.com/studio/index.html)
+* [XAMPP PHP 5.6 or above](https://www.apachefriends.org/download.html)
+* Android Phone | Requirement : Lolipop 5.0 or above, Camera.
 
-Looking for Premium Templates?
-------------------------------
-**Almsaeed studio just opened a new premium templates page. Hand picked to insure the best quality and the most affordable prices. Visit https://almsaeedstudio.com/premium for more information.**
+## Demo
+
+### Exam Registration Page
+<center><img src="SS/1.png"></center>
+
+### Automatically Generated Hall Tickets
+<center><img src="SS/2.png"></center>
+
+### Exam Timetable generation
+<center><img src="SS/3.png"></center>
+
+### Student Verfication App using ID Card Barcode
+<center><img src="SS/4.png"></center>
+
+### Student Verification using Facial Recognition
+<center><img src="SS/5.png"></center>
+
+### Student Discussion Forum 
+<center><img src="SS/6.png"></center>
+
+### Corrected Papers Marks Uploading
+<center><img src="SS/7.png"></center>
+
+### Exam Timetable integration with Google Calendar on your phone
+<center><img src="SS/8.png"></center>
 
 
-!["AdminLTE Presentation"] (https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
+## Built With
+* [Andrid Camera2 API](https://developer.android.com/reference/android/hardware/camera2/package-summary.html)
+* [Google Cloud Vision](https://cloud.google.com/vision/) - Intelligent Text Recognition.
+* [Google Calendar API](https://developers.google.com/calendar/) - Intelligent Text Recognition.
+* Admin LTE 2 Bootstrap Template
 
-**AdminLTE** has been carefully coded with clear comments in all of its JS, LESS and HTML files. LESS has been used to increase code customizability.
+## Authors
 
-Installation
-------------
-There are multiple ways to install AdminLTE.
+* **Mandar Mhapsekar**-[mandar10](https://github.com/mandar10)
+* **Prathmesh Mhapsekar**-[prathmesh36](https://github.com/prathmesh36 )
+* **Raj Patel**
+* **Aniket Mhatre**
 
-####Download:
+## License
 
-Download from Github or [visit Almsaeed Studio](https://almsaeedstudio.com) and download the latest release.
-
-####Using The Command Line:
-
-**Github**
-
-- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- Clone to your machine
-```
-git clone https://github.com/YOUR_USERNAME/AdminLTE.git
-```
-
-**Bower**
-
-```
-bower install admin-lte
-```
-
-**npm**
-
-```
-npm install --save admin-lte
-```
-
-**Composer**
-
-```
-composer require "almasaeed2010/adminlte=~2.0"
-```
-
-Documentation
--------------
-Visit the [online documentation](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html) for the most
-updated guide. Information will be added on a weekly basis.
-
-Browser Support
----------------
-- IE 9+
-- Firefox (latest)
-- Chrome (latest)
-- Safari (latest)
-- Opera (latest)
-
-Contribution
-------------
-Contribution are always **welcome and recommended**! Here is how:
-
-- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/AdminLTE.git```
-- Make your changes
-- Create a pull request
-
-#### Contribution Requirements:
-
-- When you contribute, you agree to give a non-exclusive license to Almsaeed Studio to use that contribution in any context as we (Almsaeed Studio) see appropriate.
-- If you use content provided by another party, it must be appropriately licensed using an [open source](http://opensource.org/licenses) license.
-- Contributions are only accepted through Github pull requests.
-- Finally, contributed code must work in all supported browsers (see above for browser support).
-
-License
--------
-AdminLTE is an open source project by [Almsaeed Studio](https://almsaeedstudio.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). Almsaeed Studio
-reserves the right to change the license of future releases.
-
-Todo List
----------
-- ~~Light sidebar colors~~ (Done v2.1.0)
-- ~~Right sidebar~~ (Done v2.1.0)
-- ~~Minified main-sidebar~~ (Done v2.1.0)
-- Right to left support
-- ~~Custom pace style~~ (Done v2.3.1)
-
-Legacy Releases
-----------------
-AdminLTE 1.x can be easily upgraded to 2.x using [this guide](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html#upgrade), but if you intend to keep using AdminLTE 1.x, you can download the latest release from the [releases](https://github.com/almasaeed2010/AdminLTE/releases) section above.
-
-Change log
-----------
-**For the most recent change log, visit the [releases page](https://github.com/almasaeed2010/AdminLTE/releases) or the [changelog file](https://github.com/almasaeed2010/AdminLTE/blob/master/changelog.md).** We will add a detailed release notes to each new release. 
-
-Image Credits
--------------
-[Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
-
-[Graphicsfuel](http://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
-
-[Pickaface](http://pickaface.net/)
-
-[Unsplash](https://unsplash.com/)
-
-[Uifaces](http://uifaces.com/)
-
-Donations
----------
-Donations are **greatly appreciated!**
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "AdminLTE Presentation")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=629XCUSXBHCBC "Donate")
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

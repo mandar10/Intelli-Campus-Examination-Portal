@@ -31,7 +31,9 @@ Since education is a powerful instrument of social change and human progress, it
 <center><img src="SS/2.png"></center>
 
 ### Exam Timetable generation
-<center><img src="SS/3.png"></center>
+<center><img src="SS/3a.png"></center>
+
+<center><img src="SS/3b.png"></center>
 
 ### Student Verfication App using ID Card Barcode
 <center><img src="SS/4.gif></center>
@@ -45,6 +47,7 @@ Since education is a powerful instrument of social change and human progress, it
 ### Corrected Papers Marks Uploading
 <center><img src="SS/7.gif"></center>
 
+#### Results
 <center><img src="SS/7a.png"></center>
 
 ### Exam Timetable integration with Google Calendar on your phone

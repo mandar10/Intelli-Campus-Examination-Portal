@@ -25,10 +25,10 @@ Since education is a powerful instrument of social change and human progress, it
 ## Demo
 
 ### Exam Registration Page
-<center><img src="SS/1.png"></center>
+<center><img src="SS/1.png" width="700px"></center>
 
 ### Automatically Generated Hall Tickets
-<center><img src="SS/2.png"></center>
+<center><img src="SS/2.png" width="700px"></center>
 
 ### Exam Timetable generation
 <center><img src="SS/3a.png"></center>

@@ -45,7 +45,7 @@ Since education is a powerful instrument of social change and human progress, it
 <center><img src="SS/6.png" width="700px"></center>
 
 ### Corrected Papers Marks Uploading
-<center><img src="SS/7.gif" width="250px" height="600px"></center>
+<center><img src="SS/7.gif" width="250px" height="400px"></center>
 
 #### Results
 <center><img src="SS/7a.png" width="250px"></center>

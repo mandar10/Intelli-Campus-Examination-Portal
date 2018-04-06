@@ -45,7 +45,7 @@ Since education is a powerful instrument of social change and human progress, it
 ### Corrected Papers Marks Uploading
 <center><img src="SS/7.gif"></center>
 
-<center><img src="SS/7a.gif"></center>
+<center><img src="SS/7a.png"></center>
 
 ### Exam Timetable integration with Google Calendar on your phone
 <center><img src="SS/8.png"></center>

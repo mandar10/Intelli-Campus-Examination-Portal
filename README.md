@@ -36,7 +36,7 @@ Since education is a powerful instrument of social change and human progress, it
 <center><img src="SS/3b.png" width="700px"></center>
 
 ### Student Verfication App using ID Card Barcode
-<center><img src="SS/4.gif width="250px"></center>
+<center><img src="SS/4.gif" width="400px"></center>
 
 ### Student Verification using Facial Recognition
 <center><img src="SS/5.png" width="700px"></center>
